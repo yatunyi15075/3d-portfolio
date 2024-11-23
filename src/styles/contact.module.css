@@ -1,0 +1,37 @@
+/* contact.module.css */
+.section {
+    @apply bg-[#0a1128] text-white py-20;
+  }
+  
+  .title {
+    @apply text-3xl font-bold text-center mb-10;
+  }
+  
+  .form {
+    @apply max-w-3xl mx-auto space-y-6 bg-gray-900 p-8 rounded-lg shadow-lg;
+  }
+  
+  .successMessage {
+    @apply text-green-500 mb-4;
+  }
+  
+  .inputWrapper {
+    @apply relative;
+  }
+  
+  .input {
+    @apply w-full p-4 bg-gray-800 text-white rounded focus:outline-none focus:ring-2 focus:ring-blue-500;
+  }
+  
+  .label {
+    @apply absolute left-4 top-0 text-gray-500 transition-all duration-200;
+  }
+  
+  .errorMessage {
+    @apply text-red-500 text-sm;
+  }
+  
+  .button {
+    @apply w-full bg-blue-600 hover:bg-blue-700 p-4 rounded text-white font-bold transition duration-300;
+  }
+  
